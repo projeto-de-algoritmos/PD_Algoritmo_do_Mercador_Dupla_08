@@ -80,7 +80,7 @@ janela.geometry(f"+{pos_x}+{pos_y}")
 janela.geometry(f"{largura}x{altura}")
 janela.resizable(False, False)
 
-# Cria um frame para colocar o canvas e a barra de rolagem
+# Cria um frame para colocar o canvas 
 frame = tk.Frame(janela)
 frame.grid(row=0, column=0)
 canvas = tk.Canvas(frame, width=largura, height=altura)
